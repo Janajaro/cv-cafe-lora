@@ -1,5 +1,5 @@
 export const Contact = () => {
-  render(
+  return (
     <section>
       <div className="container">
         <h2>Kde nás najdete</h2>

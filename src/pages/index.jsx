@@ -2,11 +2,11 @@ import { render } from '@czechitas/render';
 import { Footer } from '../components/Footer';
 import { Contact } from '../components/Contact';
 import { Gallery } from '../components/Gallery';
+import { Header } from '../components/header';
+import { Banner } from '../components/banner';
+import { Menu } from '../components/menu';
 import '../global.css';
 import './index.css';
-import { Header } from '../components/Header';
-import { Banner } from '../components/Banner';
-import { Menu } from '../components/Menu';
 
 document.querySelector('#root').innerHTML = render(
   <div className="page">
@@ -18,5 +18,5 @@ document.querySelector('#root').innerHTML = render(
       <Contact />
     </main>
     <Footer />
-  </div>
+  </div>,
 );

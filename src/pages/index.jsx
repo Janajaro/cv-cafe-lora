@@ -18,10 +18,6 @@ document.querySelector('#root').innerHTML = render(
       <Contact />
     </main>
     <Footer />
-<<<<<<< HEAD
-  </div>
-);
-=======
   </div>,
 );
 
@@ -37,4 +33,3 @@ const rolloutFun = () => {
   rolloutBtn.classList.add('nav-closed');
 };
 rolloutBtn.addEventListener('click', rolloutFun);
->>>>>>> a31f64c9dc32fa0678eb91a99ff5dc16e730cc5d

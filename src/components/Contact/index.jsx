@@ -38,6 +38,6 @@ export const Contact = () => {
           <img className="contact__map" src="./img/map.png" />
         </div>
       </div>
-    </section>,
+    </section>
   );
 };

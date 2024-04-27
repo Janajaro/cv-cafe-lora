@@ -2,9 +2,9 @@ import { render } from '@czechitas/render';
 import { Footer } from '../components/Footer';
 import { Contact } from '../components/Contact';
 import { Gallery } from '../components/Gallery';
-import { Header } from '../components/header';
-import { Banner } from '../components/banner';
-import { Menu } from '../components/menu';
+import { Header } from '../components/Header';
+import { Banner } from '../components/Banner';
+import { Menu } from '../components/Menu';
 import '../global.css';
 import './index.css';
 
@@ -18,11 +18,7 @@ document.querySelector('#root').innerHTML = render(
       <Contact />
     </main>
     <Footer />
-<<<<<<< HEAD
   </div>
-);
-=======
-  </div>,
 );
 
 const btn = document.querySelector('.nav-btn');
@@ -37,4 +33,3 @@ const rolloutFun = () => {
   rolloutBtn.classList.add('nav-closed');
 };
 rolloutBtn.addEventListener('click', rolloutFun);
->>>>>>> a31f64c9dc32fa0678eb91a99ff5dc16e730cc5d
